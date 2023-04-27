@@ -1,0 +1,66 @@
+*{
+    list-style: none;
+}
+header {
+  
+    background-color: #6D0CA6;
+    width: 100%;
+    display: flex; /*deixa disponivel os recursos flex*/
+    justify-content: space-between; /* espaçamendo igual com um na ponta*/
+    flex-direction: row-reverse;/*a ordem dps itens desde o ponto de inicio*/
+    align-items: center;
+    justify-content:space-between;
+    
+    
+}
+h1 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    max-width: 100%;
+    max-height: 100%;
+ 
+
+}
+h1>img {
+    margin: 1px;
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+}
+ul>li {
+    box-shadow: 1px 1px 5px black ;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #8cf305 ;
+    margin: 10px;
+    padding: 3px;
+    text-decoration: none;
+    background-color: #6D0CA6 ;
+}
+ul>li:hover {
+    background-color: #F27F1B;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 235, 190);
+}
+section>div {
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+    width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+
+
+}
+section>div>img {
+    width: 100%;
+    height: 100%;
+}

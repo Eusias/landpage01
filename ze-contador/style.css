@@ -1,0 +1,92 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+h1 {
+    background-color: rgba(240, 240, 91, 0.781);
+    width: 270px;
+    border: solid black 3px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    margin-bottom: 10px;
+    margin: 5px;
+}
+
+.qentregas {
+    background-color: rgba(240, 240, 91, 0.781);
+    width: 21em;
+    height: 2em;
+    border: solid black 3px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.opentre {
+    height: 30px;
+    background-color: rgba(240, 240, 91, 0.781);
+    border: solid black 2px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+.adicionar {
+    height: 30px;
+    background-color: rgba(240, 240, 91, 0.781);
+    border: solid black 2px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+.desfazer {
+    background-color: rgba(240, 240, 91, 0.781);
+    height: 30px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+
+}
+.sair
+{
+    background-color: rgba(240, 240, 91, 0.781);
+    height: 30px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+}
+.salario {
+    
+    background-color: rgba(240, 240, 91, 0.781);
+    height: 30px;
+    border: solid black 2px;
+    width: 200px;
+    height: 60px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 10px;
+}

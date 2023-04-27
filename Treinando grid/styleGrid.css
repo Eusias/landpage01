@@ -1,0 +1,83 @@
+* {
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+h1 {
+   
+    max-width: 100px;
+    max-height: 100px;
+}
+.logotrevo{
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caixagrid {
+    display: grid;
+    background-color: aqua;
+    gap: 3px;
+    grid-template-rows: repeat(6, fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+}
+.item {
+
+    background-color: rgb(181, 192, 26);
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 200px;
+    max-height: ;
+    
+}
+.item1 {
+
+}
+.item2 {
+    
+}
+.item3 {
+  
+}
+.item4 {
+    
+}
+.item5 {
+     
+}
+.item6 {
+
+}
